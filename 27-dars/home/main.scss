@@ -1,0 +1,204 @@
+*{
+    padding: 0;  
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    background-color:rgb(3, 3, 37) ;
+    color: white;
+    ul{
+        width: 100%;
+        display: flex;
+        padding: 0 130px;
+        margin-top: -2px;
+        justify-content: space-between;
+    }
+}
+.container{
+    width: 100%;
+    background-color:rgb(3, 3, 37);
+}
+.content{
+    height: auto;
+    width: 90%;
+    gap: 5px;
+    margin: 0 auto;
+    justify-content: start;
+    justify-content: center;
+    display: flex;
+}
+.blocks{
+    width: 30%;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    .block{
+        margin-top: 30px;
+        .info{
+            display: flex;
+            flex-direction: column;
+            .inf{
+                display: flex;
+                gap: 10px;
+            }
+        }
+        .number{
+            color: white;
+            display: flex;
+            flex-direction: column;
+            h5{
+                width: 25px;
+                height: 15px;
+                background-color: gray;
+                border-radius: 5px;
+                text-align: center;
+            }
+        }
+        width: 100%;
+        background-color: #394165;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        .menu{
+            background-color:rgb(12, 150, 132);
+            text-align: center;
+            color: white;
+        }
+        
+    }
+    .block3{
+        width: 100%;
+        background-color: #394165;
+        
+        .textures{
+            justify-content: space-between;
+            padding: 0 50px;
+            display: flex;
+            .texture2{
+                display: flex;
+                flex-direction: column;
+                color: white;
+            }
+            .texture{
+                display: flex;
+                flex-direction: column;
+                color: white;
+                .textu{
+                    
+                    height: 65px;
+                    display: flex;
+                    gap: 4px;
+                    align-items: center;
+                    h4{
+                        font-size: 23px;
+                    }
+                }
+            }
+        }
+        img{
+            width: 100%;
+        }
+        .btns{
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            margin: 15px 0;
+            button{
+                color: white;
+                padding: 10px 30px;
+                border-radius: 15px;
+                border: none;
+                background-color: rgb(150, 128, 128);
+            }
+        }
+    }
+
+}
+.text{
+    display: flex;
+    padding: 0 30px;
+    justify-content: space-between;
+    color: white;
+}
+.block2{
+    text-align: center;
+    width: 100%;
+    background-color: #394165;
+    color: white;
+    .bottom{
+        display: flex;
+    
+        .ios{
+            text-align: center;
+            line-height: 1px;
+            
+            width: 97px;
+            h4{
+                color: gray;
+            }
+            h5{
+                color: white;
+                
+            }
+        }
+    }
+}
+.cl1{
+    border: 2px solid black;
+    border-top: 2px solid yellow;
+}
+.cl2{
+    border: 2px solid black;
+    border-top: 2px solid red;
+}
+.cl3{
+    border: 2px solid black;
+    border-top: 2px solid blue;
+}
+.cl4{
+    border: 2px solid black;
+    border-top: 2px solid lime;
+}
+.blocks2{
+    width: 29%;
+    display: flex;
+    flex-direction: column;
+    .cart{
+
+        height: 57vh;
+        background-color: #394165;
+        justify-content: center;
+        display: flex;
+        margin: 5px;
+        flex-direction: column;
+        color: white;
+        text-align: center;
+        padding:7px;
+        
+        
+        img{
+            margin: 37px auto;
+            width: 170px;            
+            height: 170px;
+            border-radius: 50%;
+        }
+        .ios{
+            width: 125px;
+        }
+        .bottom{
+        padding: 20px 0;
+            display: flex;
+        }
+    }
+
+}
